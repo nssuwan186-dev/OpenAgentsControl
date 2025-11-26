@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [ main, dev ]
     paths:
-      - '.opencode/agent/**'
+      - '.opencode/**'
       - 'evals/**'
       - '.github/workflows/test-agents.yml'
   push:
