@@ -2119,76 +2119,6 @@
         "category": "standard"
       },
       {
-        "id": "design-assets",
-        "name": "Design Assets",
-        "type": "context",
-        "path": ".opencode/context/development/design-assets.md",
-        "description": "Design Assets",
-        "tags": [],
-        "dependencies": [],
-        "category": "standard"
-      },
-      {
-        "id": "ui-styling-standards",
-        "name": "Ui Styling Standards",
-        "type": "context",
-        "path": ".opencode/context/development/ui-styling-standards.md",
-        "description": "UI Styling Standards",
-        "tags": [],
-        "dependencies": [],
-        "category": "standard"
-      },
-      {
-        "id": "clean-code",
-        "name": "Clean Code",
-        "type": "context",
-        "path": ".opencode/context/development/clean-code.md",
-        "description": "Clean Code Principles",
-        "tags": [],
-        "dependencies": [],
-        "category": "standard"
-      },
-      {
-        "id": "animation-patterns",
-        "name": "Animation Patterns",
-        "type": "context",
-        "path": ".opencode/context/development/animation-patterns.md",
-        "description": "Animation Patterns",
-        "tags": [],
-        "dependencies": [],
-        "category": "standard"
-      },
-      {
-        "id": "design-systems",
-        "name": "Design Systems",
-        "type": "context",
-        "path": ".opencode/context/development/design-systems.md",
-        "description": "Design Systems",
-        "tags": [],
-        "dependencies": [],
-        "category": "standard"
-      },
-      {
-        "id": "react-patterns",
-        "name": "React Patterns",
-        "type": "context",
-        "path": ".opencode/context/development/react-patterns.md",
-        "description": "React Patterns & Best Practices",
-        "tags": [],
-        "dependencies": [],
-        "category": "standard"
-      },
-      {
-        "id": "api-design",
-        "name": "Api Design",
-        "type": "context",
-        "path": ".opencode/context/development/api-design.md",
-        "description": "API Design Patterns",
-        "tags": [],
-        "dependencies": [],
-        "category": "standard"
-      },
-      {
         "id": "mastra-config",
         "name": "Mastra Config",
         "type": "context",
@@ -2616,18 +2546,6 @@
         "category": "standard"
       },
       {
-        "id": "development-readme",
-        "name": "Development README",
-        "type": "context",
-        "path": ".opencode/context/development/README.md",
-        "description": "Development context overview and guide",
-        "tags": [
-          "development",
-          "guide"
-        ],
-        "category": "standard"
-      },
-      {
         "id": "learning-readme",
         "name": "Learning README",
         "type": "context",
@@ -2660,19 +2578,6 @@
         "tags": [
           "data",
           "guide"
-        ],
-        "category": "standard"
-      },
-      {
-        "id": "mastra-ai-readme",
-        "name": "Mastra AI README",
-        "type": "context",
-        "path": ".opencode/context/development/ai/mastra-ai/README.md",
-        "description": "Mastra AI framework documentation and guides",
-        "tags": [
-          "mastra-ai",
-          "ai",
-          "development"
         ],
         "category": "standard"
       },
@@ -2773,7 +2678,7 @@
     },
     "developer": {
       "name": "Developer",
-      "description": "Complete software development environment with code generation, testing, review, and build tools. Use OpenAgent for general tasks (1-4 files) or OpenCoder for complex architecture (4+ files). Recommended for most developers.",
+      "description": "Complete software development environment with code generation, testing, review, and build tools. Includes UI/UX patterns, development principles, and design systems. Use OpenAgent for general tasks (1-4 files) or OpenCoder for complex architecture (4+ files). Recommended for most developers.",
       "badge": "RECOMMENDED",
       "components": [
         "agent:openagent",
@@ -2803,6 +2708,15 @@
         "context:project-intelligence/*",
         "context:to-be-consumed/*",
         "context:adding-skill",
+        "context:ui/*",
+        "context:development/*",
+        "context:design-systems",
+        "context:react-patterns",
+        "context:animation-patterns",
+        "context:ui-styling-standards",
+        "context:design-assets",
+        "context:clean-code",
+        "context:api-design",
         "config:env-example",
         "config:readme"
       ]
@@ -2839,7 +2753,7 @@
     },
     "full": {
       "name": "Full",
-      "description": "Everything included - all agents, subagents, tools, and plugins for maximum functionality.",
+      "description": "Everything included - all agents, subagents, tools, and plugins for maximum functionality. Includes UI/UX patterns, development principles, and design systems.",
       "components": [
         "agent:openagent",
         "agent:opencoder",
@@ -2877,13 +2791,22 @@
         "context:project-intelligence/*",
         "context:to-be-consumed/*",
         "context:adding-skill",
+        "context:ui/*",
+        "context:development/*",
+        "context:design-systems",
+        "context:react-patterns",
+        "context:animation-patterns",
+        "context:ui-styling-standards",
+        "context:design-assets",
+        "context:clean-code",
+        "context:api-design",
         "config:env-example",
         "config:readme"
       ]
     },
     "advanced": {
       "name": "Advanced (Meta-Level)",
-      "description": "Full installation plus System Builder for creating custom AI architectures. For power users and contributors.",
+      "description": "Full installation plus System Builder for creating custom AI architectures. Includes comprehensive context system, system builder templates, and repository management tools. For power users and contributors.",
       "components": [
         "agent:openagent",
         "agent:opencoder",
@@ -2930,6 +2853,25 @@
         "context:project-intelligence/*",
         "context:to-be-consumed/*",
         "context:adding-skill",
+        "context:ui/*",
+        "context:development/*",
+        "context:design-systems",
+        "context:react-patterns",
+        "context:animation-patterns",
+        "context:ui-styling-standards",
+        "context:design-assets",
+        "context:clean-code",
+        "context:api-design",
+        "context:system-builder-guide",
+        "context:orchestrator-template",
+        "context:subagent-template",
+        "context:openagents-repo/*",
+        "context:context-system",
+        "context:context-system/*",
+        "context:registry-dependencies",
+        "context:templates",
+        "context:frontmatter",
+        "context:codebase-references",
         "config:env-example",
         "config:readme"
       ],
