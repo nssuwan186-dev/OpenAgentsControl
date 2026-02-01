@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+## [0.5.6] - 2026-02-01
+
+### Changes
+- Auto-migration to Cloud
+
 ## [0.5.5] - 2026-01-27
 
 ### Changes
