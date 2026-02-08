@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+## [0.7.2] - 2026-02-08
+
+### Changes
+- 🔧 fix: enable SDK mode and fix session creation issues
+
 ## [0.7.1] - 2026-01-30
 
 ### Changes
